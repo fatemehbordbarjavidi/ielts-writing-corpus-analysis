@@ -40,13 +40,33 @@ Spelling and grammatical errors in the learner essays were intentionally preserv
 
 ## Visualizations
 
-Exploratory visualizations were created to examine:
+Exploratory visualizations were created to examine corpus composition, score distributions, and differences in essay length across IELTS writing task types.
 
-- Distribution of IELTS band scores
-- Number of essays by task type
-- Essay word-count distribution
-- Word-count differences across task types
-- Band-score distributions across task types
+### Overall Band Score Distribution
+
+![Distribution of Overall Band Scores](figures/band_score_distribution.png)
+
+The distribution shows the range and frequency of overall band scores represented in the dataset.
+
+### Essays by Task Type
+
+![Number of Essays per Task Type](figures/essays_by_task_type.png)
+
+The corpus contains essays from both IELTS Writing Task 1 and Task 2, allowing comparisons across task types.
+
+### Word Count Distribution by Task Type
+
+![Word Count Distribution by Task Type](figures/word_count_by_task_type.png)
+
+The task-specific distributions illustrate differences in essay length between Task 1 and Task 2 responses.
+
+### Band Score Distribution by Task Type
+
+![Band Score Distribution by Task Type](figures/band_score_by_task_type.png)
+
+This visualization compares the distribution of overall band scores across the two IELTS writing task types.
+
+Additional visualizations are available in the [`figures`](figures/) directory.
 
 ## Repository Contents
 
